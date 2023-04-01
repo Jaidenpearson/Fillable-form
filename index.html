@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fillable form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <div class="mainContainer">
+    <div class="leftContainer">
+        <div class="headerContainer">
+            <h1>J.</h1>
+        </div>
+    </div>
+    <div class="rightContainer">
+        <div class="upperHero">
+            <div id="upperText">Let's do this!</div>
+        </div>
+        <div class="centerHero">
+            <p>Please fill out the following fields</p>
+            <div id="formContainer">
+            <form action="" id="form">
+
+                    <div class="data">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName">
+                    </div>
+
+                    <div class="data">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="data">
+                        <label for="password">Password</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="data">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName">
+                    </div>
+
+                    <div class="data">
+                        <label for="phone">Phone number</label>
+                        <input type="tel">
+                    </div>
+
+                    <div class="data">
+                        <label for="passConfirm">Confirm password</label>
+                        <input type="text">
+                    </div>
+            </form>
+            </div>
+        </div>
+        <div class="lowerhero">
+            <button>Submit form</button>
+            <p id="lowerText">Already have an account? <a href="">Log In.</a></p>
+        </div>
+    </div>
+    </div>
     
 </body>
 </html>
